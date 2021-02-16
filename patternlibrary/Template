@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>Nathan Pattern Library-Text</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+    <div id="preset">
+        <div class="body">
+            <div class="headbar">
+              <div class="headbarcontainer">
+                  <div class="headbarleft">
+                      <div class="headbarlogo">
+                       <a id="AtosLogoLink" href="Intro.html">
+                           <div class="AtosLogoContainer">
+                               <div class="LogoFrame">
+                                   <img class=AtosLogo src="Images/atos.png">
+                               </div>
+                               <div class="LogoTextFrame">
+                                   <span class="LogoText">ATOS Pattern Library</span>
+                               </div>
+                           </div>
+                       </a>  
+                      </div>
+                  </div>
+                  <div class=headbarcentre>
+                      <div class="innerheadbar"></div>
+                      <H1 class=PageTitle>Textual Information</H1>
+                  </div>
+                  <div class="headbarright">
+                      <div class="seachbarcontainer">
+                         <div class="searchbar">
+                             <div class="searchfield">
+                                 <input placeholder="Search..." type="text" class="inputfield">
+                             </div>
+                             </div>
+                         </div> 
+                      </div>
+                  </div>
+              </div> 
+            <div class="bodycontent">
+                <div class="wholecontent">
+                    <div class="pres">
+                        <div class="navbar">
+                       <div class=navinner>
+                           <div class="navwrap">
+                               <div class="navposition"> 
+                                   <div class="navlinks">
+                                       <a class="navlink" href="Intro.html">
+                                        <div class="navbutton">
+                                            <span>Introduction</span>
+                                        </div>
+                                       </a>
+                                       <a class="selectedlink" href="Text.html">
+                                        <div class="navbuttonselected">
+                                              <span>Text</span>
+                                        </div>
+                                        </a>
+                                       <a class="navlink" href="Images.html">
+                                        <div class="navbutton">
+                                            <span>Images</span>
+                                        </div>
+                                       </a>
+                                       <a class="navlink" href="VideoAudio.html">
+                                        <div class="navbutton">
+                                              <span>Video and Audio</span>
+                                        </div>
+                                        </a>
+                                       <a class="navlink" href="Buttons.html">
+                                        <div class="navbutton">
+                                            <span>Buttons</span>
+                                        </div>
+                                       </a>
+                                       <a class="navlink" href="GraphsTables.html">
+                                        <div class="navbutton">
+                                            <span>Graphs and Tables</span>
+                                        </div>
+                                        </a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div> 
+                    </div>
+                        <div class="contentarea">
+                            <div class="wholepagecontainer">
+                                <div class="contentcontainer">
+                                    <h2 id="Introduction">Introduction</h2>
+                                    <p>One of the most common ways of conveying information is through text, though as mentioned in the introduction too much reliance on text alone can make it overwhelming for users. It is also important to consider a variety of text formats and methods of displaying text in order to create a further break up. There are a wide variety of methods to choose from ranging from the use of headings to the displaying of lists and use of colour to distinguish text and links.</p>
+                                    <hr>
+                                    <h2 id="BaseText">Base Text</h2>
+                                    <p>Base Text must be formatted in a manner that makes any words and sentences easy for the user to read and understand the information they are representing. There are a wide variety of factors to consider when creating a CSS format for the base text of a select div or a full website. The areas of concern include: line spacing, font type, colour and sizing, all of these factors contribute to the readability of the base text.</p>
+                                    <h3>Text Font</h3>
+                                    <p></p>
+                                    <h3>Font Size</h3>
+                                    <p></p>
+                                    <h3>Font Colour</h3>
+                                    <p></p>
+                                    <h3>Line Spacing</h3>
+                                    <p></p>
+                                    <hr>
+                                </div>
+                                <div class="sidecontainer">
+                                    <div class="sidesizing">
+                                        <div class="sidecontents">
+                                            <div class="contentmenu">
+                                                <p>Contents:</p>
+                                                <a href="#Introduction" class="contentlink">
+                                                    <div class="contentbutton">
+                                                        <span>Introduction</span>
+                                                    </div>
+                                                </a>
+                                                <a href="#BaseText" class="contentlink">
+                                                    <div class="contentbutton">
+                                                        <span>Base Text</span>
+                                                    </div>
+                                                </a>
+                                                <a href="#Aim" class="contentlink">
+                                                    <div class="contentbutton">
+                                                        <span>Aim</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    <script src="ElementScript.js"></script>
+</body>
+
+
+.navbar{
+    flex: 0 0 auto;
+    width: 320px;
+    display: flex;
+    z-index: 15;
+    width: 310px;
+    align-items: stretch;
+    flex-direction: column;
+    border-right:10px #0066a1 groove;
+    position: relative;
+    padding: 5px 0 5px 10px;}

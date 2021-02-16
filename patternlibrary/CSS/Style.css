@@ -1,0 +1,387 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+
+h2{
+    color: #0066a1;
+    font-weight: 500;}
+
+h3 {
+    color: #0066a1;
+    font-weight: 500;}
+
+hr {
+    height: 1px;
+    background-color: #0066a1;
+    border: none:} 
+
+a {text-decoration: none;
+    color: #0066a1;}
+
+.contentlink:hover{
+    background-color: azure;
+    border: 2px dashed #0066a1;
+    color: #0066a1;}
+
+#preset {
+    width:100%; 
+    min-height:100%; 
+    height: initial;}
+
+.body {
+    width:100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;}
+
+.headbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    border-bottom: 1px solid #0066a1;
+    box-shadow: 0 0 5px 0 #0066a1;
+    background-color: white;
+    position: relative;
+    padding:0;
+    margin: 0;
+    text-decoration: none;}
+
+.headbarcontainer {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0;}
+
+.headbarleft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 320px;
+    justify-content: center;
+    border-right:10px #0066a1 groove}
+
+.headbarlogo {
+    display: block;}
+
+#AtosLogoLink {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0066a1}
+
+.AtosLogoContainer {
+    width: auto;
+    position: relative;
+    height: 40px;
+    display: flex;
+    border-radius: 3px;
+    padding:0;
+    margin: 0;}
+
+.LogoFrame {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    border-radius: 3px;
+    padding:0;
+    margin: 0;}
+
+.AtosLogo {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;}
+
+.LogoTextFrame {
+    color: #0066a1;
+    margin: 0;
+    display: block;
+    padding: 0;
+    padding-left: 8px;
+    text-decoration: none;}
+
+.LogoText {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #0066a1}
+
+.headbarcentre {
+    margin: 0px 24px 0px 24px;
+    flex: 1 1 auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    max-width: 1400px}
+
+.innerheadbar {
+    margin: 0;
+    display: flex;
+    opacity: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    max-width: 750p;}
+
+.PageTitle {
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #0066a1;
+    font-size: 26px}
+
+.headbarright {
+    display: flex;
+    position: relative;
+    max-width: 224px;
+    align-items: center;
+    border-left:10px #0066a1 groove}
+
+.seachbarcontainer {
+    display: block;
+    padding-left: 14px;
+    padding-right: 16px;}
+
+.searchbar {
+    width: 100%;
+    border: none;
+    display: flex;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 3px;
+    background-color: white;}
+
+.searchfield {
+    flex: 1;
+    display: block;}
+
+.inputfield {    
+    font: sans-serif;
+    font-size: 16px;
+    color: #0066a1;
+    width: 100%;
+    border: none;
+    cursor: inherit;
+    height: 42px;
+    margin: 0;
+    resize: none;
+    outline: none;
+    padding: 0px 8px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 3px;}
+
+.searchiconholder {
+    flex: 0 0 auto;
+    color: #0066a1;
+    order: -1;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    padding-left: 8px;}
+
+.bodycontent {
+    flex: 1;
+    color: #3B454E;
+    width: 100%;
+    margin: auto;
+    display: flex;}
+
+.wholecontent {
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-height: 100%;
+    flex-direction: column;}
+
+.pres {
+       flex: 1;
+    display: flex;
+    align-items: stretch; }
+
+.navinner {
+    flex: 1;
+    display: block;}
+
+.navwrap {
+    flex: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;}
+
+.navposition {
+    position: relative;
+    max-height: 857px;
+    flex: auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-left: 50px;}
+
+.navlinks{
+    margin-top: 60px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5}
+
+.navbuttonselected {
+    border: 1px solid #0066a1;
+    padding: 2px;
+    background: #dbdbdb;
+    font-weight: bold;
+    text-decoration: none;}
+
+.selectedlink{
+    text-decoration: none;
+    color: black}
+
+.navbutton{
+    padding: 2px;}
+
+.navbutton:hover {
+    background-color: azure;
+    border: 1px solid #0066a1;}
+
+.navlink {
+    text-decoration: none;
+    color: #0066a1}
+
+.contentarea {
+    flex: 1 1 auto;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;}
+
+.wholepagecontainer {
+    flex: 1 1 auto;
+    display: flex;
+    position: relative;}
+
+.contentcontainer {
+    flex: 1 1 auto;
+    margin:10px 30px;
+    display: block;
+    max-width: 2000px;
+    min-width: 0;
+    padding-bottom: 64px;
+    font-family: sans-serif;
+    line-height: 1.5;}
+
+.sidecontainer {
+    flex: 0 0 auto;
+    min-width: 224px;
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    border-left:10px #0066a1 groove}
+
+.sidesizing {
+    flex: 1;
+    display: block;
+    max-width: 100%;}
+
+.sidecontents {
+    max-height: 857px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    color: #0066a1;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;}
+
+.contentmenu {
+    height: auto;
+    width: 150px;
+    position: fixed;
+    overflow-x: hidden;
+    background: #eee;
+    text-decoration: none;
+    line-height: 1.5;}
+
+.contentmenu p {
+    line-height: 0;
+    color: black;}
+
+.contentlink {
+    text-decoration: none;
+    color: #0066a1;}
+
+.contentbutton {
+    padding: 2px;}
+
+.contentbutton:hover {
+    background-color: azure;
+    border: 1px solid #0066a1;
+    color: #0066a1;}
+
+.contentimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+#MenuButton {
+    font-size:30px;
+    cursor:pointer;
+    color: #0066a1;
+    width: auto;
+    height: 100%;
+    margin: 0px 20px;}
+
+.navbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 90px;
+    border-right:10px #0066a1 groove;
+    background: white;}
+
+.navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;}
+
+#para1 {
+    font-family: serif;}
+
+@font-face {
+    font-family: dyslexicFont;
+    src: url(font/OpenDyslexic-Regular.otf);}
+
+#para2 {
+    font-family: dyslexicFont;}
+
+#para3 {
+    font-family: sans-serif}

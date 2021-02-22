@@ -18,7 +18,7 @@ h3 {
 hr {
     height: 1px;
     background-color: #0066a1;
-    border: none:} 
+    border: none;} 
 
 a {text-decoration: none;
     color: #0066a1;}
@@ -385,3 +385,17 @@ a {text-decoration: none;
 
 #para3 {
     font-family: sans-serif}
+
+input:focus {
+    border: 3px solid #555;
+    }
+.loginform {
+    border: 3px solid rgb(11, 141, 124);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.tester{
+    margin: auto;
+    width: 50%;
+}

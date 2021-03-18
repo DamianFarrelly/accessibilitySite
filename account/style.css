@@ -1,4 +1,4 @@
-.accountCreation{
+.formFormat{
     padding: 5em;
     text-align: center;
     position: relative;
@@ -24,6 +24,11 @@ input {
     margin: 8px 0;
     box-sizing: border-box;
 }
+.errorNotification{
+    color: red;
+    font-weight: bold;
+    font-size: 16px
+}
 .AtosLogo{
     display: block;
     margin-left: auto;
@@ -42,7 +47,8 @@ input {
     font-weight: 500;
     line-height: 1.5;
     color: #0066a1;
-    font-size: 26px}
+    font-size: 26px;
+}
 
 .footer h3 {
     margin-top: 0;

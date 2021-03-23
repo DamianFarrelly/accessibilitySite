@@ -24,15 +24,14 @@
             <label for="lname">Last name:</label>
             <input type="text" name="lname" placeholder="Last Name" pattern="[A-Za-z]+" maxlength="15" required autocomplete="off"><br>
             <label for="userUsername">Username</label>
-            <input type="text" name="userUsername" placeholder="Enter your username" required autocomplete="off"><br>
+            <input type="text" name="userUsername" placeholder="Enter your username" maxlength="15" required autocomplete="off"><br>
             <label for="enteredPassword">Enter password</label>
-            <input type="password" name="enteredPassword" placeholder="Enter your password" required autocomplete="off"><br>
+            <input type="password" name="enteredPassword" placeholder="Enter your password" maxlength="15" required autocomplete="off"><br>
             <input type="submit"><br>
         </fieldset>
     </form>
     <a href="login.html">Already have an account? Login here.</a>
     </div>
-
 
 
 
@@ -45,19 +44,22 @@
                         <ul>
                             <li><a href="#">Home Page</a></li>
                             <li><a href="#">Pattern Library</a></li>
+                            <li><a href="#">Rating System</a></li>
+                            <li><a href="#">VPAT</a></li>
+                            <li><a href="#">WCAG</a></li>
                         </ul>
                     </div>
                     <div class="About">
                         <h3>About</h3>
                         <ul>
-                            <li><a href="#">Atos</a></li>
-                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="https://atos.net/en/">Atos</a></li>
+                            <li><a href="https://atos.net/en/accessibility">Accessibility</a></li>
                         </ul>
                     </div>
                     <div class="socialMedia">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" aria-label="Facebook link" class="fa fa-facebook"></a>
+                        <a href="#" aria-label="Twitter link" class="fa fa-twitter"></a>
+                        <a href="#" aria-label="Linked In link" class="fa fa-linkedin"></a>
                     </div>
                 </div>
             </div>

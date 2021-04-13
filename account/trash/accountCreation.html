@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="../../patternlibrary/CSS/Style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
@@ -14,10 +14,10 @@
               <div class="headbarcontainer">
                   <div class="headbarleft">
                       <div class="headbarlogo">
-                       <a id="AtosLogoLink">
+                       <a id="AtosLogoLink" href="Intro.html">
                            <div class="AtosLogoContainer">
                                <div class="LogoFrame">
-                                   <img class=AtosLogo src="../patternlibrary/Images/atos.png" alt="Atos logo">
+                                   <img class=AtosLogo src="../../patternlibrary/Images/atos.png" alt="Atos logo">
                                </div>
                                <div class="LogoTextFrame">
                                </div>
@@ -42,23 +42,35 @@
               </div> 
             <div class="bodycontent">
                 <div class="wholecontent">
+                    <div class="pres">
+                        <div class="navbar" id="Sidenav">
+                       <div class=navinner>
+                           <div class="navwrap">
+                               <div class="navposition"> 
+                                   <div class="navlinks">
 
-
+                                   </div>
+                               </div>
+                           </div>
+                       </div> 
+                    </div>
+                        <div class="MenuOpen">
+                        </div>
                         <div class="contentarea" id="main"> 
                             <div class="wholepagecontainer">
                                 <div class="contentcontainer">
                                     <div class="loginform">
-                                        <form name="details" method="POST" action="anything.php" class="tester" >
+                                        <form class="tester">
                                             <fieldset>
                                                 <legend>Account Creation</legend>
                                                 <label for="fname">First name:</label>
-                                                <input type="text" name="fname" placeholder="First Name" pattern="[A-Za-z]+" maxlength="15" required autocomplete="off">
+                                                <input type="text" name="fname" placeholder="First Name">
                                                 <label for="lname">Last name:</label>
-                                                <input type="text" name="lname" placeholder="Last Name" pattern="[A-Za-z]+" maxlength="15" required autocomplete="off"><br>
+                                                <input type="text" name="lname" placeholder="Last Name"><br>
                                                 <label for="userUsername">Username</label>
-                                                <input type="text" name="userUsername" placeholder="Enter your username" required autocomplete="off"><br>
+                                                <input type="text" name="userUsername" placeholder="Enter your username"><br>
                                                 <label for="enteredPassword">Enter password</label>
-                                                <input type="password" name="enteredPassword" placeholder="Enter your password" required autocomplete="off"><br>
+                                                <input type="password" name="enteredPassword" placeholder="Enter your password"><br>            
                                                 <input type="submit"><br>
                                             </fieldset>
                                         </form>
@@ -73,5 +85,33 @@
                 </div>
             </div> 
         </div>
+        <div class="footer">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="Quick Links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="#">Home Page</a></li>
+                                <li><a href="#">Pattern Library</a></li>
+                            </ul>
+                        </div>
+                        <div class="About">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Atos</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                            </ul>
+                        </div>
+                        <div class="socialMedia">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
 </body>
 </html>

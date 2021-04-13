@@ -1,0 +1,159 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    color: #f0f9ff;
+    background-color: #282d32;
+    overflow: hidden;
+    padding-top: 5px;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    .footer h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
+    .footer ul {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+
+        .footer ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 1;
+        }
+
+            .footer ul a:hover {
+                color: yellow;
+                border: 2px dashed #0066a1
+            }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+    .fa:hover {
+        color: yellow;
+    }
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #282d32;
+    padding: 20px 10px;
+    position: sticky;
+}
+
+    .header a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+        .header a:hover {
+            color: yellow;
+            border: 2px dashed #0066a1
+        }
+
+#atosLogo {
+    width: 15em;
+    float: left;
+    padding: 10px 25px;
+}
+
+#header-right {
+    float: right;
+    width: 60%;
+    height: 100%;
+    margin: 0px;
+}
+
+    #header-right ul {
+        text-align: center;
+        float: right;
+    }
+
+    #header-right li {
+        display: inline-block;
+    }
+
+        #header-right li a, #header-right li span {
+            display: inline-block;
+            padding: 0em 1.5em;
+            text-decoration: none;
+            font-weight: 600;
+            line-height: 60px;
+        }
+
+#logout {
+    background-color: red;
+}
+.posts-wrapper {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+}
+
+.post {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px 5px 0px 5px;
+    border: 1px solid green;
+}
+
+.post-info {
+    margin: 10px auto 0px;
+    padding: 5px;
+}
+
+.fa {
+    font-size: 1.2em;
+}
+
+.fa-thumbs-down, .fa-thumbs-o-down {
+    transform: rotateY(180deg);
+}
+
+.logged_in_user {
+    padding: 10px 30px 0px;
+}
+
+i {
+    color: blue;
+}
+

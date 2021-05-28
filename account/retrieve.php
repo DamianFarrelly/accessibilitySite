@@ -21,12 +21,14 @@ if ($result->num_rows > 0) {
     if(($row['username'] == $username) && ($row['password'] == $password)){
       $message = "Logged in successfully, redirecting to home page...";
       echo "<script type='text/javascript'>alert('$message');</script>";
-      echo "<script type='text/javascript'>window.location.href='homepage.html'</script>";
+      echo "<script type='text/javascript'>window.location.href='../homepage/Page.html'</script>";
     }
 
   }
 } else {
-  echo "Your username and/or password is incorrect.";
+  $message = "Your login details are incorrect";
+  echo "<script type='text/javascript'>alert('$message');</script>";
+  echo "<script type='text/javascript'>window.location.href='login.html'</script>";
 }
 $con->close();
 
